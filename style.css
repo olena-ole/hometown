@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1D3557;
+    text-align: center;
+} 
+
+
+.header {
+    background-image: url("images/torshov.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 155px;
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.header-title {
+    background-color: #1D3557;
+    padding: 6px 12px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.header-cta {
+    margin-top: 11px;
+    background-color: #457B9D;
+    padding: 8px 29px;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.activities {
+    max-width: 720px;
+    margin: 0 auto;
+    background: #F1FAEE;
+}
+
+.activities-title {
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+.activities-list {
+    padding: 58px 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.activities-item {
+    max-width: 198px;
+}
+
+.activities-item-img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.activities-item-title {
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 23px;
+}
+
+.activities-item-info {
+    margin-top: 17px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.guide {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 50px 160px;
+}
+
+.guide-card {
+    display: flex;
+    justify-content: space-between;
+    padding: 23px 13px;
+    background: #A8DADC;
+    box-shadow: 0px 6px 0px #1D3557;
+    border-radius: 10px;
+}
+
+.guide-card-img {
+    width: 180px;
+    border-radius: 10px;
+}
+
+.guide-info-title {
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 26px;
+}
+
+.guide-info-descr {
+    margin-top: 16px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.guide-info-name {
+    margin-top: 26px;
+    font-weight: 700;
+    font-size: 16px;
+}
